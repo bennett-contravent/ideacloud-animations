@@ -289,10 +289,10 @@ window.addEventListener('scroll', function() {
         }
     }
   
-  var testdiv = document.querySelector('#testdiv');
-  var testposition = testdiv.getBoundingClientRect();
-  if(testposition.top >= 0 && testposition.bottom <= window.innerHeight) {
+  //var testdiv = document.querySelector('#testdiv');
+  //var testposition = testdiv.getBoundingClientRect();
+  //if(testposition.top >= 0 && testposition.bottom <= window.innerHeight) {
         //console.log('Element is fully visible in screen');
-    }
+  //  }
   
 });
